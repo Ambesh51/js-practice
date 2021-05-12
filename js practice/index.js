@@ -124,6 +124,40 @@
 // }
 
 
+//code chef print only how many times sum of k in a array
+
+// let arr = [ 20, 5, 5, 5, 10, 16 ];
+// let k = 15;
+// let n = arr.length;
+// let res = 0;
+ 
+// // Calculate all subarrays
+// for(let i = 0; i < n; i++)
+// {
+//     let sum = arr[i];
+//     for(let j = i+1; j < n; j++)
+//     {
+//        if(sum == k){
+//            console.log(sum);
+//            break
+//        }
+//        else if(sum<k){
+//             sum = sum +arr[j];
+            
+//        }
+//       else{
+//         break;
+//       }
+       
+      
+         
+//         // Check if sum is equal to
+//         // required sum
+        
+//     }
+// }
+// console.log(res)
+
 
 // var arr=[11,12,13,15,14];
 // var k=1;
@@ -169,7 +203,7 @@
 // var a =10
 // console.log(a);//10
 
-// 1) what is JS
+// 1) what is JS 
 // 2)var + hosting
 // 3) null and undefined// difference
 
@@ -274,4 +308,142 @@
 
 
 
+// let a =11;
+// {
+//     let a = 10;
+    
+// }
+// console.log(a)
+
+
+
+
+// let a=10;
+
+// function myfunction(){
+//     //  let a =12;
+//     console.log(a);
+// }
+
+
+// myfunction(a)
+// console.log(a);
+
+
+//      ***************************   function 5-11-2021
+
+// IIFE -- immediate invoke function expression
+
+//normal fun
+// var foo = "foo_outer";
+// function test(){
+//     var foo ="foo_inner";
+//     console.log(foo);
+// }
+// console.log(foo);
+// test();
+
+//iife without parameter
+// (function test(){
+// console.log('iife');
+// })();
+
+// // with parameter
+// (function test(val){
+// console.log(val)
+// })("aditya");
+
+//Anonumous function----> no name function
+
+// (function (){
+//     console.log('anonumous fun');
+// })();
+
+// one more way to write aninumous function
+
+// var khushiCoder = function (val){ //2
+//     console.log('no name function',val);//3
+//     return 1;
+// };//4
+
+// console.log(khushiCoder("khishi"));// 1
+// khushiCoder("aditya");
+
+//resursive fuunction
+// function res(n){//2 //6 //10
+//     if(n==0){//3 //7 //11 //true
+//         return 1;
+//     }
+//     else{//4 //8 //12
+//         return n+res(n-1);//5    10+res(9)
+//                         //9    return 9// 46
+//                         //13 retunr 8+res(7)
+//                         //return  7 +res(6);
+//                         //return 6+res(5);
+//                         //return 5+res(4);
+//                         //return 4+res(3);
+//                         //return 3+res(2);
+//                         //return 2+ res(1); =2
+//                         // return 1+res(0) n=0 //->>return 1+1=2
+//     }
+// }
+// var temp = res(10);//1 
+// console.log(temp)
+
+
+//*****  HOC high order function
+// A function takes another function as a parameter
+
+//normal function
+// var foo = "foo_outer";
+// function test(val){
+//     var foo ="foo_inner";
+//     console.log(foo,val);
+// }
+// console.log(foo);
+// test("tech-stack");
+
+//Hoc Example
+// function bolo(call){//2
+//     console.log(call);
+//     // call();//3
+// }
+
+// function print(){//4
+//     console.log("Print");//5
+// }
+
+// bolo(print)//1
+
+// // bolo(print)
+
+// pure--> always same
+// function num (val){
+//     return val +1;
+// }
+// console.log(val());
+
+//impure function
+// function num (val){
+//         return val+(Math.random()*10);
+//     }
+//     console.log(num(2));
+
+
+//arow function
+
+// var arrow = (val) => {
+// console.log('arrow function', val);
+// }
+// arrow("val---");
+
+
+
+
+// today homeword --> 
+// 1) post function-> anonumous, IIFE
+// 2) bind function()--> homework
+// 3) reusme->icon dil, homework, font heading, colors
+
+//array padhke aana hai
 
