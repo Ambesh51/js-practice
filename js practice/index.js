@@ -406,6 +406,7 @@
 //Hoc Example
 // function bolo(call){//2
 //     console.log(call);
+//     call();
 //     // call();//3
 // }
 
@@ -415,7 +416,7 @@
 
 // bolo(print)//1
 
-// // bolo(print)
+// bolo(print)
 
 // pure--> always same
 // function num (val){
@@ -445,5 +446,161 @@
 // 2) bind function()--> homework
 // 3) reusme->icon dil, homework, font heading, colors
 
+
+
 //array padhke aana hai
 
+// ********************12-5-21**************************//
+//Settimeout
+// what is settimeout
+// --> widow object   i can use anywhere
+// settimeout and setinterval
+
+//yeh dono ek particular time ke baad program ko execute 
+// karne ka kaam karte hai
+
+//Settimeout --> 5 min
+// 1) function 2) time
+
+//setinterval ---> 5 min  add har 5 min
+// video start ->>>>> add >>>>>>> add
+
+// settime-out -> it is execute a function after waiting a
+// specific time in a minisec
+// 1000 MS - 1sec
+
+// setinterval - run every 5 sec...
+
+
+// Set timeout-->
+// Example--->
+// 1)
+
+// function myfunction(){//2
+//     console.log("first");//3  //1
+//     setTimeout(function (){//4
+// console.log("timeout");//6 //5
+//     },6000) // ---> 6 sec  //7
+//     console.log("outer");//8 //2
+    
+// }
+// myfunction();//1
+// console.log("hey") //3
+// console.log("byr") //4
+
+
+// set interval
+// function myfunction(){
+//     var date = new Date();
+//     document.getElementById("time").innerHTML=date.toLocaleTimeString();
+// }
+//   var Time =  setInterval(myfunction,1000);
+
+// function Hey(){
+//     console.log("hello");
+// }
+
+//************************Array*****************8
+// syntax
+// var a = [0,2,3,4];
+// var arr1=[1,2,3,4,5];
+// var arr = arr1;
+
+// // console.log(a);
+// console.log(arr);
+
+// 2 ways to make array
+// 1) let arr=[]; ---->  USe this one
+// 2) let arr = new Array(); ---> XX no use
+
+// 1)
+// let fruit = ["mango","orange","grapes","apple"];
+// // console.log(fruit[1]);
+
+// let TestArray = ["apple",2,true,{"name":"anuj"},
+// function (){console.log("array-FUnction")}]
+
+// console.log(TestArray[4]());
+
+//object
+// var ambesh={
+//     name:"khushi",
+//     name1:"aadity"
+// }
+// console.log(ambesh);
+
+// 2) 2nd way to make array
+// let arr = [5,2]
+// let arr1 = new Array(5);
+//1  long way 2 write
+// 2 readable
+//3 empty space 
+// console.log("arr",arr);
+// console.log("arr1",arr1);
+
+
+//**************************methods
+
+// 1)  toSting()
+// we are using for make array to string
+// array --- > string mai convert 
+
+// let fruit = ["mango","orange","grapes","apple"];
+// let no=[1,2,3,4,5]
+// console.log(fruit);
+// console.log(no.toString())
+
+// 2) JOIN
+// 1)convert string
+// 2) add-on karta
+
+// let fruit = ["mango","orange","grapes","apple"];
+// console.log(fruit)
+// console.log(fruit.join("*"))
+
+
+// end value ke method---->
+
+// 3) pop --> end ki value remove karna
+// 1)its remove last element from the array
+//2) it is affect your original array also
+
+//  let fruit = ["mango","orange","grapes","apple","banana"];
+// var k = fruit.pop() //--> last element vo remove kardo
+//  console.log(k);
+//  console.log(fruit)
+
+
+// 4) push --> end mai value dalna
+// 1) insert on index endor last;
+// 2)its add the element your original array
+
+// let fruit = ["mango","orange","grapes","apple","banana"];
+// fruit.push("packet");
+// console.log(fruit); //---->
+// fruit.pop();
+// console.log(fruit);//
+
+
+
+//starting add and remove
+// 1) shift() ---> starting value remove karna
+//1) affect original array for remove item
+//2) index 0
+
+// let fruit = ["mango","orange","grapes","apple","banana"];
+// var temp = fruit.shift(); //---> temp =mango
+// console.log(fruit);//----->
+// fruit.push("tech-stack");
+// fruit.push("banana");
+// // console.log(fruit);--->// b , m, o,g,a,b -->m,t,b
+//                        //o,g,a,b,t,b
+                         //m,t,b
+
+// 2)unshift  --> // starting m value dalna
+
+// 1)index par dalnega
+// 2) affect original array ko
+// let fruit = ["mango","orange","grapes","apple","banana"];
+// fruit.unshift("khushi");
+// console.log(fruit)
