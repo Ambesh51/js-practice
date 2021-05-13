@@ -604,3 +604,100 @@
 // let fruit = ["mango","orange","grapes","apple","banana"];
 // fruit.unshift("khushi");
 // console.log(fruit)
+
+// let fruit = ["mango","orange","grapes","apple","banana"];
+// fruit[0]= "kiwi"; //- 
+// let value = fruit[0];//-
+// console.log(value);// --->
+// let temp =  fruit.shift();
+// console.log(fruit); 
+
+
+
+// ************************ 13-05-21
+
+// ********Delete keyword
+
+// we want any single element delete inside the array
+// its affect original array
+// problem--- empty space create
+// let fruit = ["mango","orange","grapes","apple","banana"];
+// delete fruit[2];
+// delete fruit[1];
+// console.log(fruit)
+
+//*********splice
+//----add kis postion
+//---- delete value
+//---- delete karle add karni hai
+// its affect original array
+
+
+
+// sytax ---->
+// splice(excess pr index of new element should be added,
+//      how many element should be remove , 
+//               new element to be added)
+
+// let fruit = ["mango","orange","grapes","apple","banana"];
+// console.log(fruit);
+// fruit.splice(2,0,"kiwi","banana", "kiwi");
+// console.log(fruit);
+// // fruit.splice(2,5);//grapes
+// // console.log(fruit);
+// var temp = fruit.splice(5,1);
+// console.log(temp.toString());
+// console.log(fruit);
+
+//********concat
+// merge
+// its is not change exist array it return new array
+
+// let fruit = ["mango","orange","grapes","apple","banana"];
+// let fruit1 = ["kiwi","pinaple"];
+// var backet =fruit.concat(fruit1);
+// console.log(backet.join(","));
+
+
+//********slice
+// original array not change 
+//slice contain a sub-array or piece of code 
+//syntax --- array.slice(stating , up-to//  not include);
+             //0       1        2        3        4
+// let fruit = ["mango","orange","grapes","apple","banana"];
+// // var sliced = fruit.slice(1);
+// // console.log("fruit",fruit)
+// var sliced = fruit.slice(1,3);
+// console.log("sliced",sliced)
+// // // var sliced = fruit.slice(1);
+
+//********sort
+//sorting on strin inside of array ------>
+// let fruit = ["mango","orange","grapes","apple","banana"];
+// fruit.sort();    //asscending
+// console.log(fruit);
+// //reverse
+// fruit.reverse();
+// console.log(fruit);
+
+//sorting on no inside on array ----->
+// let fruit = ["mango","orange","grapes","apple","banana"];
+// let array = [110, 29, 31,3,00001, 11110];
+// // array.sort();
+// array.sort(function(a,b){return b-a})
+
+// console.log(array);
+
+//*****IndexOf
+// let fruit = ["mango","orange","orange","grapes","banana","apple","banana"];
+// console.log(fruit.indexOf("orange"),2);
+// console.log(fruit.lastIndexOf("banana"));
+
+
+
+
+
+
+
+
+
