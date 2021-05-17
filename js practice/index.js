@@ -130,7 +130,7 @@
 // let k = 15;
 // let n = arr.length;
 // let res = 0;
- 
+
 // // Calculate all subarrays
 // for(let i = 0; i < n; i++)
 // {
@@ -143,17 +143,17 @@
 //        }
 //        else if(sum<k){
 //             sum = sum +arr[j];
-            
+
 //        }
 //       else{
 //         break;
 //       }
-       
-      
-         
+
+
+
 //         // Check if sum is equal to
 //         // required sum
-        
+
 //     }
 // }
 // console.log(res)
@@ -189,9 +189,9 @@
 
 
 
-    //hoisting function var 
+    //hoisting function var
 
-// 1) var a=10 
+// 1) var a=10
 //    var a
 //    a=10
 
@@ -203,12 +203,12 @@
 // var a =10
 // console.log(a);//10
 
-// 1) what is JS 
+// 1) what is JS
 // 2)var + hosting
 // 3) null and undefined// difference
 
-// 3) post 
-// i) flax box 
+// 3) post
+// i) flax box
 // ii)hosting
 // var + let
 // iii) resume
@@ -275,7 +275,7 @@
 
 // function khsuhi1(catchit){//3
 //         console.log('catchit',catchit);//4
-        
+
 //         var temp = 10;//5
 
 // return catchit + temp;//6
@@ -287,7 +287,7 @@
 // console.log(temp);//8
 
 
-// homework 
+// homework
 
 // function
 // array
@@ -311,7 +311,7 @@
 // let a =11;
 // {
 //     let a = 10;
-    
+
 // }
 // console.log(a)
 
@@ -387,7 +387,7 @@
 //                         // return 1+res(0) n=0 //->>return 1+1=2
 //     }
 // }
-// var temp = res(10);//1 
+// var temp = res(10);//1
 // console.log(temp)
 
 
@@ -441,7 +441,7 @@
 
 
 
-// today homeword --> 
+// today homeword -->
 // 1) post function-> anonumous, IIFE
 // 2) bind function()--> homework
 // 3) reusme->icon dil, homework, font heading, colors
@@ -456,7 +456,7 @@
 // --> widow object   i can use anywhere
 // settimeout and setinterval
 
-//yeh dono ek particular time ke baad program ko execute 
+//yeh dono ek particular time ke baad program ko execute
 // karne ka kaam karte hai
 
 //Settimeout --> 5 min
@@ -482,7 +482,7 @@
 // console.log("timeout");//6 //5
 //     },6000) // ---> 6 sec  //7
 //     console.log("outer");//8 //2
-    
+
 // }
 // myfunction();//1
 // console.log("hey") //3
@@ -534,7 +534,7 @@
 // let arr1 = new Array(5);
 //1  long way 2 write
 // 2 readable
-//3 empty space 
+//3 empty space
 // console.log("arr",arr);
 // console.log("arr1",arr1);
 
@@ -543,7 +543,7 @@
 
 // 1)  toSting()
 // we are using for make array to string
-// array --- > string mai convert 
+// array --- > string mai convert
 
 // let fruit = ["mango","orange","grapes","apple"];
 // let no=[1,2,3,4,5]
@@ -606,11 +606,11 @@
 // console.log(fruit)
 
 // let fruit = ["mango","orange","grapes","apple","banana"];
-// fruit[0]= "kiwi"; //- 
+// fruit[0]= "kiwi"; //-
 // let value = fruit[0];//-
 // console.log(value);// --->
 // let temp =  fruit.shift();
-// console.log(fruit); 
+// console.log(fruit);
 
 
 
@@ -636,7 +636,7 @@
 
 // sytax ---->
 // splice(excess pr index of new element should be added,
-//      how many element should be remove , 
+//      how many element should be remove ,
 //               new element to be added)
 
 // let fruit = ["mango","orange","grapes","apple","banana"];
@@ -660,8 +660,8 @@
 
 
 //********slice
-// original array not change 
-//slice contain a sub-array or piece of code 
+// original array not change
+//slice contain a sub-array or piece of code
 //syntax --- array.slice(stating , up-to//  not include);
              //0       1        2        3        4
 // let fruit = ["mango","orange","grapes","apple","banana"];
@@ -750,7 +750,7 @@
 // let a=10;
 
 // {
-   
+
 
 //     console.log(a); //--->10
 //     console.log(k); //--->1
@@ -764,7 +764,7 @@
 // (function (val){
 //     if(val>0){
 //         console.log(val);
-//     arguments.callee(--val);    
+//     arguments.callee(--val);
 //     }
 // // console.log(val)
 // })(11);
@@ -776,7 +776,7 @@
 //         myfun(--n);
 //     }
 // }
-// myfun(10); 
+// myfun(10);
 
 
 // var loop = [1,2,3,4,5];
@@ -794,7 +794,7 @@
 
 // for of loop ---- of mtlab value array
 // for in loop ----- index par kaam karna object
-// forEach loop   ---- 
+// forEach loop   ----
 
 // let fruit = ["mango","orange","grapes","apple","banana"];
 // for( var i=0; i<fruit.length;i++){
@@ -813,7 +813,7 @@
 
 //******************for in
 
-          
+
 // var arr = ["a","b","c",{"name":"kashihs"}];
 //console.log(arr[3].name)
 // console.log(std.address)
@@ -828,11 +828,11 @@
 //     }
 //   ]
 
-// ]
+
 // }
 // console.log(std);
 
-    
+
 
 
 // var std={
@@ -848,7 +848,7 @@
 // }
 // let fruit = ["mango","orange","grapes","apple","banana"];
 
-// //syntax 
+// //syntax
 // fruit.forEach(function(value, index){
 // console.log(index,value)
 // })
@@ -863,13 +863,13 @@
 
 
 // map , filter , reduce --> method
-// map --> 
+// map -->
 // 1) operation --> each value par perform hota hai
 // 2) its will make new array
 
 
 // var num_fill = [1,2,3,4,5,6,7,8,112,13,15,18];
-                
+
 // var new_arr =num_fill.map(function(val){
 //     // if(val>10){
 //         return val* val;
@@ -877,7 +877,7 @@
 // })
 // console.log(new_arr)
 
-//filter 
+//filter
 // 1) operation ---> can filter the value by logical
 // its will make new array
 // var num_fill = [1,2,3,4,5,6,7,8,112,13,15,18];
@@ -919,15 +919,135 @@
 // console.log(temp());
 
 // clourse
-// lexical scope 
-// temporal dead zone 
+// lexical scope
+// temporal dead zone
+
+//***************** 17-05-21 *************
+// array of object
+// obj with function
+// obj with array
+
+// var obj1 = {
+//     serial_no:1,
+   
+
+// }
+// obj1.myfun = function(){
+
+// }
 
 
+
+
+// // var temp = obj1.myfun();
+// // console.log(temp);
+
+//  console.log(obj1.serial_no);
+
+// var obj_arr = {
+//    arr:[{name:"adi"},{address:"jaipur"}],
+// }
+
+// console.log(obj_arr.arr)
+
+// var obj = {
+//     myfun:myfun
+// }
+
+// function myfun(){
+//     console.log("hey");
+// }
+
+// obj.myfun();
 
 // this keyword
 
 // JavaScript this refers to the object that
 // the function belongs to. And the value of this depends
-// on how the function is called, 
+// on how the function is called,
 // something known as runtime binding
 
+
+
+// var name="tech-stack"
+// console.log(this.name);
+
+
+// default binding
+// function myfun(){
+//     console.log(this);
+// }
+// myfun();
+
+
+// implicit binding
+
+// function batch(){
+//     var name="khushi";
+//     console.log(this.name);
+// }
+// var name= "ninja1";
+
+// var obj1 = {name:"ninja",batch:batch}
+// var obj2 = {name:"ninja2", batch: batch}
+
+// batch();
+// obj1.batch();
+// obj2.batch();
+
+ // implicit  example
+
+// var obj1 = {
+//     name:"ninja",
+//     batch:function(){
+//         console.log(this.name);
+//     }
+// }
+
+// var obj2 = {
+//     name:"ninjs2",
+//     batch:obj1.batch
+// }
+// var name = "ninja3"
+
+// var batch = obj1.batch;
+
+// batch();// ninja -a  ninja -k            X
+// obj1.batch();//ninja -a ninja -k          ok
+// obj2.batch();//ninj-2          ninja2 -k  ok
+
+
+//Explicit binding call and apply
+
+// function batch(city,country){
+//     console.log(city, country);
+//     console.log(this)
+
+// }
+// var name="ninja";
+
+// var obj1={name:"ninja1",id:1}
+// // batch();//--ninja
+// // batch.call(obj1,"jaipur","india");
+// batch.apply(obj1,["jaipur","india"]); //--> ninja1 call and apply
+
+
+// bind() --> bind function
+// function myfun(){
+//     console.log(this);
+// }
+// const obj ={
+//     Key:1,
+    
+    
+// }
+
+// // obj.batch()
+// const boundFunction=myfun.bind(obj);
+
+// boundFunction();
+
+// ---->18-05-21
+//arrow function
+//interview --->
+//normal fun and arrow function difference
