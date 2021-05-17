@@ -693,11 +693,241 @@
 // console.log(fruit.indexOf("orange"),2);
 // console.log(fruit.lastIndexOf("banana"));
 
+//*******************LOOP **************/
+//******************* */ DATE:-15-05-21******
+
+// let fruit = ["mango","orange","grapes","apple","banana"];
+// var spliced = fruit.slice(1,3);
+// console.log(spliced);// --> orange and grapes
+//  fruit.splice(0,2,spliced);
+//  console.log(fruit)
+// console.log(spliced);
+
+
+// const b =10;
+// //fix
+// console.log(b);
+// // let and const --->  temporal dead zone
+// let a;
+// console.log(a);
+
+
+// (function(){console.log("aaditya")})();
+
+// var a=11; //1 a=10
+// function myfun(val){
+//     val(); //jab yeh khatam hoga tab wapis aegega
+//     console.log(a)
+// }
+
+// function print(){
+//     console.log("print");
+
+//     {
+//         var a=10;
+//         console.log(a);
+//     }
+
+//     console.log(a);
+
+//     fun(a)
+// }
+// myfun(print);//2
+
+// console.log(a);
+
+// function fun(a){
+//     console.log(a)
+
+//     {
+//         console.log(a);
+//     }
+// }
 
 
 
+// var k=1;
+// let a=10;
+
+// {
+   
+
+//     console.log(a); //--->10
+//     console.log(k); //--->1
+// }
+
+// console.log(k);    //--->1
+// console.log(a);    //--->10
+
+// loop start
+//anonumous with recursion
+// (function (val){
+//     if(val>0){
+//         console.log(val);
+//     arguments.callee(--val);    
+//     }
+// // console.log(val)
+// })(11);
+
+
+// function myfun(n){
+//     if(n>0){
+//         console.log(n);
+//         myfun(--n);
+//     }
+// }
+// myfun(10); 
+
+
+// var loop = [1,2,3,4,5];
+// console.log(loop.length)
+// for(var a=0; a<loop.length; --a){
+//     console.log(loop[a]);
+// }
+
+// a=0; 0<
+
+//******************** */ 15-05-21**********
+// khushi :: aditya
+// 10       :: 0
+// 0        :: 10
+
+// for of loop ---- of mtlab value array
+// for in loop ----- index par kaam karna object
+// forEach loop   ---- 
+
+// let fruit = ["mango","orange","grapes","apple","banana"];
+// for( var i=0; i<fruit.length;i++){
+//     console.log("fruit",fruit[i]);
+// }
+
+// for(var a of fruit){
+//     console.log(a)
+// }
+
+// var name = 1234;
+
+// for(var a of name){
+//     console.log(a)
+// }
+
+//******************for in
+
+          
+// var arr = ["a","b","c",{"name":"kashihs"}];
+//console.log(arr[3].name)
+// console.log(std.address)
+
+//  var std={
+//   arr:[
+//       {"name":"khushi",
+//     "phn_no":9090909
+//     },
+//       {"name":"aditya",
+//     "phn_no":1234
+//     }
+//   ]
+
+// ]
+// }
+// console.log(std);
+
+    
+
+
+// var std={
+//     "id":1234,
+//     "name":"Khushi",
+//     "address":"git capus",
+//     "phone_no":"8233432423"
+//   }
+//   var arr =[1,2,3,4,5]
+
+// for(var e in std ){
+//     console.log(std[e]);
+// }
+// let fruit = ["mango","orange","grapes","apple","banana"];
+
+// //syntax 
+// fruit.forEach(function(value, index){
+// console.log(index,value)
+// })
+
+// var num = [1,2,3,4];
+// var squareNo =[];
+
+// num.forEach(function(val){ // val - 3
+//     squareNo.push(val*val) // square - 0[1*1] 1[2*2] 2[3*3]
+// })
+// console.log(squareNo);
+
+
+// map , filter , reduce --> method
+// map --> 
+// 1) operation --> each value par perform hota hai
+// 2) its will make new array
+
+
+// var num_fill = [1,2,3,4,5,6,7,8,112,13,15,18];
+                
+// var new_arr =num_fill.map(function(val){
+//     // if(val>10){
+//         return val* val;
+//     // }
+// })
+// console.log(new_arr)
+
+//filter 
+// 1) operation ---> can filter the value by logical
+// its will make new array
+// var num_fill = [1,2,3,4,5,6,7,8,112,13,15,18];
+
+// var new_arr =num_fill.filter(function(val){
+//         if(val>10){
+//             return val;
+//         }
+//     })
+
+//     console.log(new_arr);
+
+//reduce
+// single value return
+
+
+// var num_fill = [1,2,3,4,5,6,7,8];
+// var sum = num_fill.reduce(myfunction)
+
+// function myfunction(total, value){
+//     return total + value;
+// }
+// console.log(sum);
+
+
+//lexical scope
+
+// function khushi(){//2
+//     var name= "khushi-coder";
+//     //3
+//     function adi(){//5
+//         var name="adi"
+//  console.log(name);//6
+//  return 1;
+//     }
+// return adi;//4
+// }
+// var temp = khushi(); //1
+// console.log(temp());
+
+// clourse
+// lexical scope 
+// temporal dead zone 
 
 
 
+// this keyword
 
+// JavaScript this refers to the object that
+// the function belongs to. And the value of this depends
+// on how the function is called, 
+// something known as runtime binding
 
