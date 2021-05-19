@@ -1048,6 +1048,95 @@
 // boundFunction();
 
 // ---->18-05-21
-//arrow function
+//arrow function     
 //interview --->
 //normal fun and arrow function difference
+
+// fabonaci series -->
+// var n = prompt("enter a  no");
+// var fab=[];
+
+// console.log(fab);
+// var k=0,m=0;
+// for(var i=0; i<n;i++){
+//     if(i==0||i==1){
+//         fab.push(m) // stl -> standard template library
+//         m++;// 1
+//     }
+//     else{
+//         console.log(i);
+//     let k=fab[i-1]+fab[i-2] // 
+//     fab.push(k);
+// //    console.log(k);
+//     }
+// }
+// console.log(fab);
+
+//Prime number
+
+// var k =10%2;
+// 2)n/2  
+// console.log(k)
+
+ //************************** 19-05-21  */
+ //Arrow function
+
+//  function myname(){
+//      console.log("hey")
+//  }
+//  myname();
+
+//  const myname1 = (k) => {
+//      console.log("arrow",k)
+//  }
+//  myname1("hey");
+
+// const arr =["ram","sham","laxman","bharat"];
+
+// let arrow = arr.map(function(item){
+// return item+"1";
+// })
+// console.log(arrow);
+
+// let arrow = arr.map((item)=>{
+//     return item+"2";
+//     })
+//     console.log(arrow);
+
+//  runApp = {
+//     firstname:"john",
+//     init:function(){
+//         this.run()
+//     },
+//     run:function(){
+//         console.log(this.firstname);//john
+//     },
+//     test:()=>{
+//         console.log(this.firstname);//undefined // cena
+        
+//     },
+//     check:function(){
+//         this.test();
+//     },
+//     hello:function(){
+//         this.test()
+//     }
+    
+// };
+// var firstname="cena";
+
+// runApp.init();
+// runApp.test();
+// runApp.check();
+// runApp.hello();
+
+  
+// DOM -- 2 yah 3
+// console.log(document);
+
+
+// for(let i=0; i<10;i++){
+//     Set
+// }
+
+// ek 1sec baad value
