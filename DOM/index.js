@@ -153,4 +153,92 @@
 // newDiv.style.color="black";
 // newDiv.style.fontSize="45px";
 
-// destructering
+// Event stuff
+
+// function ClickFun(){
+//     console.log("clickFUnction");
+// }
+
+//we make event with the help of js
+
+// var button = document.getElementById("button").addEventListener('click',ClickFun);
+
+// function ClickFun(){
+//     console.log("clicked");
+//     document.getElementById('header-title').textContent="Welcome"
+// }
+
+// function ClickFun(e){
+//     console.log("clicked");
+//     document.getElementById('header-title').textContent="Welcome"
+//         console.log(e.target.id);
+        
+//     }
+
+// function ClickFun(e){
+//     var out =  document.getElementById('output');
+
+//     out.innerHTML="<h3>"+e.target.id+"</h3>"
+// console.log(e.altKey)
+// var temp=e.altKey
+// if(temp){
+//     console.log("hey");
+// }
+
+// }
+
+// var button = documents.getElementById("button").addEventListener('',ClickFun);
+
+// function ClickFun(){
+//         console.log("clicked");
+//         // document.getElementById('header-title').textContent="Welcome"
+//     }
+
+//js deep
+ //old
+
+//  function myfun(name, age){
+//      return 'hi '+name+' your age is '+age+' years old';
+//  }
+//  var temp = myfun("aditya",20)
+//  console.log(temp);
+
+
+// ES6
+
+//template literal
+// function myfun(name, age){
+//     return `hi ${name} your age is ${age} year old`;
+// }
+// var temp = myfun("aditya",20)
+// console.log(temp);
+
+// Destructuring in js Object
+// const emp = {
+//     "name":"abc",
+//     "emp_id":1,
+//     "phone":80779061,
+//     "address":"108 Jaipur"
+// }
+//  let {name,emp_id} = emp;
+
+// console.log(name,emp_id)
+        //  abc  1  no,    108    109    abc
+
+//  console.log(["emp_id"]);
+//console.log(emp.name);
+// console.log();
+
+// let arr = ["ram","shyam","rita"];
+
+
+
+// let [ ,, val3] = arr
+
+
+// console.log(  val3);
+
+//spread opertator
+//callback -- > async await .then .catch promise
+
+array
